@@ -1,0 +1,75 @@
+package test;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author moklet gaming 1
+ */
+public class TugasKategoriNilai {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int nilai1, nilai2, nilai3, nilai4, nilai5;
+        System.out.println("~Pengecekan Nilai KKM~");
+        System.out.print("Masukkan nilai pelajaran Matematika: ");
+        nilai1 = input.nextInt();
+        System.out.print("Masukkan nilai pelajaran Bahasa Indonesia: ");
+        nilai2 = input.nextInt();
+        System.out.print("Masukkan nilai pelajaran Bahasa Inggris: ");
+        nilai3 = input.nextInt();
+        System.out.print("Masukkan nilai pelajaran Fisika: ");
+        nilai4 = input.nextInt();
+        System.out.print("Masukkan nilai pelajaran Marketing: ");
+        nilai5 = input.nextInt();
+
+        System.out.println();
+        System.out.println("Pengecekan nilai anda adalah");
+        if (nilai1 <= 60) {
+            System.out.println(nilai1 + " kurang");
+        } else if (nilai1 <= 70) {
+            System.out.println(nilai1 + " cukup");
+        } else if (nilai1 <= 90) {
+            System.out.println(nilai1 + " baik");
+        } else if (nilai1 <= 100) {
+            System.out.println(nilai1 + " luar biasa");
+        }
+
+        if (nilai2 <= 60) {
+            System.out.println(nilai2 + " kurang");
+        } else if (nilai2 <= 70) {
+            System.out.println(nilai2 + " cukup");
+        } else if (nilai2 <= 90) {
+            System.out.println(nilai2 + " baik");
+        } else if (nilai2 <= 100) {
+            System.out.println(nilai2 + " luar biasa");
+        }
+
+        if (nilai3 <= 60) {
+            System.out.println(nilai3 + " kurang");
+        } else if (nilai3 <= 70) {
+            System.out.println(nilai3 + " cukup");
+        } else if (nilai3 <= 90) {
+            System.out.println(nilai3 + " baik");
+        } else if (nilai3 <= 100) {
+            System.out.println(nilai3 + " luar biasa");
+        }
+
+        if (nilai4 <= 60) {
+            System.out.println(nilai4 + " kurang");
+        } else if (nilai4 <= 70) {
+            System.out.println(nilai4 + " cukup");
+        } else if (nilai4 <= 90) {
+            System.out.println(nilai4 + " baik");
+        } else if (nilai4 <= 100) {
+            System.out.println(nilai4 + " luar biasa");
+        }
+
+        if (nilai5 <= 60) {
+            System.out.println(nilai5 + " kurang");
+        } else if (nilai5 <= 70) {
+            System.out.println(nilai5 + " cukup");
+        } else if (nilai5 <= 90) {
+            System.out.println(nilai5 + " baik");
+        } else if (nilai5 <= 100) {
+            System.out.println(nilai5 + " luar biasa");
+        }
